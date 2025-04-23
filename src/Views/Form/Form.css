@@ -1,0 +1,37 @@
+/* Form.css */
+
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: rgba(244, 246, 248, 0.7);
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .image-upload-section {
+    margin: 30px 0 20px 0; /* Más aire antes y después */
+  }
+  
+  .image-preview {
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    object-fit: contain;
+  }
+  
+  .submit-button {
+    margin-top: 30px;
+  }
+  
